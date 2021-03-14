@@ -14,3 +14,33 @@
 	align-items: center;
 	list-style: none;
 }
+
+.menuItems .hiddenMenu {
+	display: flex;
+	flex-direction: column;
+}
+
+.hiddenMenu ul {
+	list-style: none;
+	display: none;
+}
+
+.hiddenMenu:hover ul {
+	list-style: none;
+	display: block;
+}
+
+.potionsContainer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.potionsContainer .potionImg {
+	margin-right: 0.8rem;
+}
+
+.potionsContainer .potionImg img {
+	height: 10rem;
+	width: 10rem;
+}
